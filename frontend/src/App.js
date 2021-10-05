@@ -4,6 +4,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 
 import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home}/>
+          <Route path="/Signup" exact component={Signup}/>
+          <Route path="/Login" exact component={Login}/>
         </Switch>
       </Router>
     </>
