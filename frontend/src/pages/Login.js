@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
-import { Avatar, Button, Box, CssBaseline, TextField, makeStyles, Container, Typography} from '@material-ui/core';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import { Avatar, Button, Box, CssBaseline, TextField, makeStyles, Container, Typography} from "@material-ui/core";
+import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import axios from "axios";
 import { AuthContext } from "../helpers/authContext";
 
@@ -10,16 +10,16 @@ import { AuthContext } from "../helpers/authContext";
 const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
   },
   avatar: {
     margin: theme.spacing(1),
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', 
+    width: "100%", 
     marginTop: theme.spacing(1),
   },
   submit: {
