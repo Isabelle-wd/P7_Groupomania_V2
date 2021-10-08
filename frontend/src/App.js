@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Feed from "./pages/Feed";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" exact component={Home}/>
           <Route path="/Signup" exact component={Signup}/>
           <Route path="/Login" exact component={Login}/>
+          <Route path="/Feed" exact component={Feed}/>
         </Switch>
       </Router>
     </>

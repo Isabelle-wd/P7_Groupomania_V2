@@ -64,7 +64,7 @@ function Signup() {
         onSubmit: (data) => {
             axios.post("http://localhost:3001/auth", data)
             .then(() => {
-                history.push("/");
+                history.push("/Feed");
         })},
     });
 

@@ -14,8 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
-    max-width: 1500px;
+    height: 80px;  
   }
    
   .nav-menu {
@@ -105,5 +104,10 @@
       color: #fff;
       font-size: 2rem;
     }
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+   
   
   }

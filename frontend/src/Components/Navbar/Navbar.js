@@ -12,9 +12,9 @@ function Navbar() {
                 <div className="navbar-container">
                     <img
                         alt="logo"
-                        src= "images/icon-left-font-monochrome-white.svg"
-                        height="350"
+                        src= "images/icon-left-font-monochrome-white.svg"                       
                         width="350"
+                        className="icon-logo"
                     />
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />

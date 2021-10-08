@@ -61,7 +61,7 @@ let history = useHistory();
               id: response.data.id,
               status: true,
             });
-            history.push("/");  
+            history.push("/Feed");  
           }       
                           
         });
