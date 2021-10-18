@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Feed from "./pages/Feed";
+import Profile from "./pages/Profile";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/Signup" exact component={Signup}/>
           <Route path="/Login" exact component={Login}/>
           <Route path="/Feed" exact component={Feed}/>
+          <Route path="/Profile/:id" exact component={Profile}/>
         </Switch>
       </Router>
     </>
